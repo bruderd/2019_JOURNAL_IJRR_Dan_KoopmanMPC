@@ -1,0 +1,52 @@
+% sage_latex_guidelines.tex V1.20, 14 January 2017
+
+\documentclass[Afour,sageh,times,doublespace]{sagej}
+
+\usepackage{moreverb,url}
+
+\usepackage[colorlinks,bookmarksopen,bookmarksnumbered,citecolor=red,urlcolor=red]{hyperref}
+
+\newcommand\BibTeX{{\rmfamily B\kern-.05em \textsc{i\kern-.025em b}\kern-.08em
+T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+%% Custom macros
+\newcommand{\Real}{\mathbb{R}}
+
+\def\volumeyear{2016}
+
+\setcounter{secnumdepth}{3}     % add section numbers for IJRR
+\begin{document}
+
+\runninghead{Smith and Wittkopf}
+
+\title{Control of a Soft Robot Manipulator with the Koopman Operator and Model Predictive Control}
+
+\author{Daniel Bruder\affilnum{1} and Ram Vasudevan\affilnum{1}}
+
+\affiliation{\affilnum{1}University of Michigan, USA}
+
+\corrauth{Daniel Bruder, 
+University of Michigan
+Department of Mechanical Engineering,
+Ann Arbor, MI
+48109, USA.}
+
+\email{bruderd@umich.edu}
+
+\begin{abstract}
+\input{sections/abstract.tex}
+\end{abstract}
+
+\keywords{Class file, \LaTeXe, \textit{SAGE Publications}}
+
+\maketitle
+
+% Body
+\input{sections/intro.tex}
+\input{sections/theory.tex}
+
+% List of references
+\bibliographystyle{SageH}
+\bibliography{references}
+
+\end{document}
